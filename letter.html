@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter</title>
+    <link rel="stylesheet" href="./letter.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Stinky Bobinky,</strong>
+                        <p>
+                        2 years and 7 flights later, I still feel like I won the lottery. Somehow I ended up with the most amazing
+                        patient and kind hearted boyfriend ever, I am the luckiest girl in the world. I can't put into words how much
+                        I love you, so I tried putting it into code. I love you to the moon and to saturn.
+
+                        <br>
+                        Love ,
+                        <br>
+                        Katie
+                             
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
